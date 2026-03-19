@@ -10,7 +10,7 @@ controller_manager:
       type: velocity_controllers/JointGroupVelocityController
 
     bumperbot_controller:
-     type: diff_drive_controller/DiffDriveController
+      type: diff_drive_controller/DiffDriveController
 
 
 simple_velocity_controller:
