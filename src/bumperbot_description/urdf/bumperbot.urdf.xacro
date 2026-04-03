@@ -8,6 +8,10 @@
     <color rgba="1 0 0.1 1"/>
   </material>
 
+  <material name="black">
+  <color rgba="0 0 0 1"/>
+  </material>
+
   <xacro:include filename="$(find bumperbot_description)/urdf/bumperbot_gazebo.xacro" />
   <xacro:include filename="$(find bumperbot_description)/urdf/bumperbot_ros2_control.xacro" />
 
