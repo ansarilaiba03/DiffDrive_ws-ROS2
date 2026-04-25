@@ -17,7 +17,7 @@ class SimpleSerialTransmitter(Node):
 
         self.sub_ = self.create_subscription(String, "serial_transmitter", self.msgCallback, 10)
         self.sub_
-        self.arduino_ = serial.Serial(port=self.port_, baudrate=self.baudrate_, timeout=0.1)
+        self.arduino_ = serial. Serial(port=self.port_, baudrate=self.baudrate_, timeout=0.1)
 
     def msgCallback(self, msg):
         self.get_logger().info("New message received, publishing on serial: %s" % self.arduino_.name)
